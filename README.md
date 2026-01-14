@@ -27,13 +27,20 @@ The main work is in `ml_optimisation.ipynb`.
 
 ---
 
-## Repo structure
+## Repository Structure
 
+```
 .
 ├── ml_optimisation.ipynb
 ├── A.csv
 ├── b.csv
 └── .gitignore
+```
+
+- **ml_optimisation.ipynb** – main notebook with gradient descent and regularised least squares setup  
+- **A.csv** – design matrix for the regularised least squares experiment  
+- **b.csv** – target vector  
+- **.gitignore** – keeps environments, caches, and generated files out of version control
 
 ---
 
