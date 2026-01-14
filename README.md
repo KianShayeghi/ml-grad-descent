@@ -17,7 +17,7 @@ The main work is in `ml_optimisation.ipynb`.
 
 ---
 
-### 2) Regularised Least Squares (A.csv, b.csv)
+### 2) Regularised Least Squares
 - Reads `A.csv` and `b.csv` via **pandas**
 - Converts them to **PyTorch tensors**
 - Creates a random train/test split using `torch.randperm`
