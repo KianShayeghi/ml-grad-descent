@@ -1,4 +1,4 @@
-# ml-grad-descent
+# Machine Learning - Gradient Descent
 
 A machine learning optimisation project focused on **gradient descent for linear regression** and a scaffold for **regularised least squares** experiments.
 
