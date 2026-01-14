@@ -58,8 +58,6 @@ git clone https://github.com/KianShayeghi/ml-grad-descent.git
 cd ml-grad-descent
 jupyter notebook
 
----
-
 Open ml_optimisation.ipynb and run the cells.
 
 ---
