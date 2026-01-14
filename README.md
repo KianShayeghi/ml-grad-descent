@@ -47,16 +47,19 @@ The notebook imports the following:
 - scikit-learn
 - jupyter
 
-Quick install (bash):
+Quick install :
+```bash
 pip install numpy pandas matplotlib torch scikit-learn jupyter
-
+```
 ---
 
-## How to run (bash):
+## How to run:
 
+```bash
 git clone https://github.com/KianShayeghi/ml-grad-descent.git
 cd ml-grad-descent
 jupyter notebook
+```
 
 Open ml_optimisation.ipynb and run the cells.
 
