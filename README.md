@@ -23,8 +23,6 @@ The main work is in `ml_optimisation.ipynb`.
 - Creates a random train/test split using `torch.randperm`
 - Sets up the workflow for testing different regularisation strengths `λ` and plotting test error vs `λ`
 
-> Some parts of this section are currently left as `...` placeholders (assignment scaffolding). The structure is there for implementing the full ridge/regularised solution and evaluation loop.
-
 ---
 
 ## Repository structure
