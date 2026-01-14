@@ -29,3 +29,49 @@ The main work is in `ml_optimisation.ipynb`.
 
 ## Repository structure
 
+    .
+    ├── ml_optimisation.ipynb
+    ├── A.csv
+    ├── b.csv
+    └── .gitignore
+
+- **ml_optimisation.ipynb** – main notebook with gradient descent and regularised least squares setup  
+- **A.csv** – design matrix for the regularised least squares experiment  
+- **b.csv** – target vector  
+- **.gitignore** – keeps environments, caches, and generated files out of version control
+
+---
+
+## Requirements
+
+The notebook imports the following:
+- Python 3.x
+- numpy
+- pandas
+- matplotlib
+- torch
+- scikit-learn
+- jupyter
+
+Quick install:
+```bash
+pip install numpy pandas matplotlib torch scikit-learn jupyter
+```
+
+---
+
+How to run
+```bash
+git clone https://github.com/KianShayeghi/ml-grad-descent.git
+cd ml-grad-descent
+jupyter notebook
+```
+Open ```ml_optimisation.ipynb``` and run the cells.
+
+---
+
+Notes
+
+There is a Google Colab upload cell (```from google.colab import files```) intended for uploading ```A.csv``` / ```b.csv``` in Colab.
+
+If you’re running locally, you can ignore that cell as long as the CSVs are already in the repo directory.
